@@ -8,6 +8,7 @@ class PaginationApplicationTests {
 
 	@Test
 	void contextLoads() {
+		System.out.println("hello");
 	}
 
 }
