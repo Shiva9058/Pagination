@@ -25,6 +25,7 @@ public class MyController {
 	@GetMapping("/get/{pageno}/{pagesize}")
 	public List<User> getvalue(@PathVariable int pageno,@PathVariable int pagesize)
 	{
+               System.out.println("Processing");
 	       return  userService.getData(pageno, pagesize);  
 	}
 	@PostMapping("/save")
