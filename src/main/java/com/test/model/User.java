@@ -14,7 +14,7 @@ public class User {
 	private int id;
 	private String name;
 	private String address;
-	private String pin;
+	private String pincode;
 
 	public int getId() {
 		return id;
@@ -41,16 +41,16 @@ public class User {
 	}
 
 	public String getPin() {
-		return pin;
+		return pincode;
 	}
 
 	public void setPin(String pin) {
-		this.pin = pin;
+		this.pincode = pin;
 	}
 
 	@Override
 	public String toString() {
-		return "User [id=" + id + ", name=" + name + ", address=" + address + ", pin=" + pin + "]";
+		return "User [id=" + id + ", name=" + name + ", address=" + address + ", pin=" + pincode + "]";
 	}
 
 }
