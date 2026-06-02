@@ -39,4 +39,10 @@ public class MyController {
 			System.out.println("HEllo");
 			return userService.getId(id);
 		}
+
+	@GetMapping("/health")
+	public String getvalue()
+	{
+	       return  "Application working";  
+	}
 	}
